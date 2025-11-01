@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/forward-to-discord.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/forward-to-discord", "dest": "api/forward-to-discord.js" }
+  ]
+}
